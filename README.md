@@ -1,8 +1,10 @@
 # 环境依赖：
-python3.6
-pip install xlwt
+python：3.6.2
 
-小试牛刀：
+python包：xlwt
+
+
+# 小试牛刀：
 ```python
 with open('a.xls', 'wb') as fp:
     a = DetailExcelOutput()
