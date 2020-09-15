@@ -3,7 +3,7 @@ python3.6
 pip install xlwt
 
 小试牛刀：
-'''
+```python
 with open('a.xls', 'wb') as fp:
     a = DetailExcelOutput()
     data_ = [
@@ -16,4 +16,4 @@ with open('a.xls', 'wb') as fp:
     }
     s = a.run(data=data_, format_data=format_data_)
     fp.write(s)
-'''
+```
