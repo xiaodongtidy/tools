@@ -3,7 +3,7 @@ python3.6
 pip install xlwt
 
 小试牛刀：
-```python
+```
 with open('a.xls', 'wb') as fp:
     a = DetailExcelOutput()
     data_ = [
