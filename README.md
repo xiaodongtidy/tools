@@ -10,8 +10,10 @@ python包：xlwt
 with open('a.xls', 'wb') as fp:
     a = DetailExcelOutput()
     data_ = [
-        {'number': '1', 'status': 1, 'is_pay': False, 'details': [{'名称': '门', '数量': 2}, {'名称': '窗', '数量': 4}]},
-        {'number': '2', 'status': 3, 'is_pay': True, 'details': [{'名称': '墙纸', '数量': 2}, {'名称': '龙头', '数量': 3}]}
+        {'number': '1', 'status': 1, 'is_pay': False, 'details': [{'名称': '门', '数量': 2},
+         {'名称': '窗', '数量': 4}]},
+        {'number': '2', 'status': 3, 'is_pay': True, 'details': [{'名称': '墙纸', '数量': 2}, 
+        {'名称': '龙头', '数量': 3}]}
     ]
     format_data_ = {
         'title_data': [['单号', 5918], ['状态', 3000], ['是否结算', 3400], ['名称', 4000], ['数量', 3000]],
